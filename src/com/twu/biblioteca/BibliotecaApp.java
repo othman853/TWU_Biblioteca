@@ -3,6 +3,20 @@ package com.twu.biblioteca;
 public class BibliotecaApp {
 
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
+        BibliotecaApp app = new BibliotecaApp();
+
+        app.start();
     }
+
+    public void start() {
+        welcome();
+    }
+
+    public void welcome() {
+        System.out.println("Hello, welcome to Biblioteca!");
+    }
+
+
+
 }
