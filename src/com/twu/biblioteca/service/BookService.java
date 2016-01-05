@@ -1,7 +1,10 @@
 package com.twu.biblioteca.service;
 
-/**
- * Created by yrachid on 1/5/16.
- */
-public class BookService {
+import java.util.List;
+
+public interface BookService<T> {
+
+    List<T> getAll();
+    List<T> getAllAvailable();
+
 }
