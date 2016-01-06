@@ -15,12 +15,7 @@ public class BookServiceImplementation implements BookService<Book>{
 
     @Override
     public List<Book> getAll() {
-        return null;
-    }
-
-    @Override
-    public List<Book> getAllAvailable() {
-        return null;
+        return repository.getAll();
     }
 
 }
