@@ -5,11 +5,11 @@ import com.twu.biblioteca.model.data.Book;
 
 import java.util.List;
 
-public class FakeBookService implements BookService<Book>{
+public class BookServiceImplementation implements BookService<Book>{
 
     private BookRepository<Book> repository;
 
-    public FakeBookService(BookRepository<Book> repository) {
+    public BookServiceImplementation(BookRepository<Book> repository) {
         this.repository = repository;
     }
 
